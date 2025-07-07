@@ -1,0 +1,134 @@
+/* ตั้งค่าพื้นฐาน */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+section{
+    background-color: #e1b1d7;
+    
+}
+.sec{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+}
+
+
+/* ส่วนหัว */
+header {
+    background-image: url(https://i.pinimg.com/originals/ee/78/c6/ee78c67c41f6439bb9ce406907c91f3d.jpg);
+    color: white;
+    padding: 30px 0;
+
+    object-fit: contain;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* หัวข้อ */
+h1, h2 {
+    margin-bottom: 15px;
+    background-color: #e4a3df;
+    border-radius: 50px;
+    width: 300px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: white
+}
+
+section {
+    margin: 40px 0;
+}
+
+/* รายการทักษะ */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* ตารางประวัติการศึกษา */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(244, 91, 218);
+    color: white;
+}
+
+/* ฟอร์มติดต่อ */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #dc75bf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e2abde;
+}
+
+/* ส่วนท้าย */
+footer {
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
