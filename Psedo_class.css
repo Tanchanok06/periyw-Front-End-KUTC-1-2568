@@ -1,0 +1,20 @@
+.heading:hover{
+    color: violet;
+    font-size: 80px;
+}
+
+.heading:active{
+    background-color: pink;
+}
+
+#input:focus{
+    background-color: rgb(151, 191, 239);
+    color: rgb(239, 93, 219);
+}
+
+.list li:nth-child(odd){
+    background-color: rgb(251, 146, 199);
+    color: lightpink;
+}
+
+ 

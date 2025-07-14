@@ -1,0 +1,17 @@
+.item{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(240, 185, 240, 0.614);
+    color: rgba(231, 13, 13, 0.831);
+    text-align: center;
+    border: slateblue 1px;
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    justify-content: space-between;
+    align-items: center;
+
+}
