@@ -4,15 +4,47 @@ body{
 h1{
     display: none;
 }
-
-@media (max-width:500px){
+@media  (max-width:699px){
     body{
-        background-color: hotpink;
+        background: royalblue;
+        h1{
+        display: inline;
+        }
+        .four,.two,.tree{
+            display: none;
+        }
     }
-    #smartphone h1{
-        display: block;
-        color: lightpink;
+}
+@media  (min-width:700px){
+    body{
+        background: rgb(255, 0, 0);
+        .one{
+            display: none;
+        }
+        .two{
+            display: block;  font-size: 70px;  
+        }
     }
-    
-
+}
+@media  (min-width:1000px){
+    body{
+        background: rgb(0, 243, 57);
+        .one,.two{
+            display: none;
+        }
+        .tree{
+            display: block;  font-size: 70px;  
+        }
+    }
+}
+@media  (min-width:1200px){
+    body{
+        background: rgb(244, 0, 211);
+        .one,.two,.tree{
+            display: none;
+        }
+        .four{
+            display: block;  font-size: 70px;  
+        }
+    }
 }
